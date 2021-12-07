@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (Rio) @Htdxs.--
---   This Is The Source Channel @ttttftfr .   --
+-- This Source Was Developed By (Rio) @RFRFF.--
+--   This Is The Source Channel @iinzzz .   --
 --                - BrandTame -                 --
---        -- https://t.me/ttttftfr --         --
+--        -- https://t.me/iinzzz --         --
 ------------------------------------------------ 
 DevRio  = dofile("./libs/redis.lua").connect("127.0.0.1", 6379)
 serpent = dofile("./libs/serpent.lua")
@@ -140,7 +140,7 @@ print("\27[36m"..[[
 ]]..'\27[m'.."\n\27[35mServer Information ↬ ⤈ \n┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\27[m\n\27[36m~ \27[mUser \27[36m: \27[10;32m"..User.."\27[m\n\27[36m~ \27[mIp \27[36m: \27[10;32m"..Ip.."\27[m\n\27[36m~ \27[mName \27[36m: \27[10;32m"..Name.."\27[m\n\27[36m~ \27[mPort \27[36m: \27[10;32m"..Port.."\27[m\n\27[36m~ \27[mUpTime \27[36m: \27[10;32m"..UpTime.."\27[m\n\27[35m┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\27[m")
 Config = dofile("./config.lua")
 DevId = Config.DevId
-SudoIds = {Config.SudoIds,2144589731,2144589731,2144589731}
+SudoIds = {Config.SudoIds,1783964439,1783964439,1783964439}
 BrandTame = Config.BrandTame
 TokenBot = Config.TokenBot
 NameBot = (DevRio:get(BrandTame..'Rio:NameBot') or 'براند')
@@ -626,7 +626,7 @@ end ,nil)
 end
 --     Source BrandTame     --
 local RioRank = function(msg) if SudoId(msg.sender_user_id_) then BrandTameTeam  = "المطور" elseif RioSudo(msg) then BrandTameTeam = "المطور" elseif SecondSudo(msg) then BrandTameTeam = "المطور" elseif SudoBot(msg) then BrandTameTeam = "المطور" elseif Manager(msg) then BrandTameTeam = "المدير" elseif Admin(msg) then BrandTameTeam = "الادمن" else BrandTameTeam = "العضو" end return BrandTameTeam end
-function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(2144589731) then BrandTameTeam = 'مبرمج السورس' elseif tonumber(user_id) == tonumber(2144589731) then BrandTameTeam = 'مطور السورس' elseif tonumber(user_id) == tonumber(2144589731) then BrandTameTeam = 'مطور السورس' elseif tonumber(user_id) == tonumber(BrandTame) then BrandTameTeam = 'البوت' elseif SudoId(user_id) then BrandTameTeam = 'المطور الاساسي' elseif DevRio:sismember(BrandTame..'Rio:RioSudo:', user_id) then BrandTameTeam = 'المطور الاساسي' elseif DevRio:sismember(BrandTame..'Rio:SecondSudo:', user_id) then BrandTameTeam = 'المطور الاساسي²' elseif DevRio:sismember(BrandTame..'Rio:SudoBot:', user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:SudoBot:Rd"..chat_id) or 'المطور' elseif DevRio:sismember(BrandTame..'Rio:Owner:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Owner:Rd"..chat_id) or 'المالك' elseif DevRio:sismember(BrandTame..'Rio:RioConstructor:'..chat_id, user_id) then BrandTameTeam = 'المالك' elseif DevRio:sismember(BrandTame..'Rio:BasicConstructor:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevRio:sismember(BrandTame..'Rio:Constructor:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevRio:sismember(BrandTame..'Rio:Managers:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Managers:Rd"..chat_id) or 'المدير' elseif DevRio:sismember(BrandTame..'Rio:Admins:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Admins:Rd"..chat_id) or 'الادمن' elseif DevRio:sismember(BrandTame..'Rio:VipMem:'..chat_id, user_id) then  BrandTameTeam = DevRio:get(BrandTame.."Rio:VipMem:Rd"..chat_id) or 'المميز' elseif DevRio:sismember(BrandTame..'Rio:Cleaner:'..chat_id, user_id) then  BrandTameTeam = DevRio:get(BrandTame.."Rio:Cleaner:Rd"..chat_id) or 'المنظف' else BrandTameTeam = DevRio:get(BrandTame.."Rio:mem:Rd"..chat_id) or 'العضو' end return BrandTameTeam end
+function IdRank(user_id,chat_id) if tonumber(user_id) == tonumber(1783964439) then BrandTameTeam = 'مطور السورس' elseif tonumber(user_id) == tonumber(1783964439) then BrandTameTeam = 'مطور السورس' elseif tonumber(user_id) == tonumber(1783964439) then BrandTameTeam = 'مطور السورس' elseif tonumber(user_id) == tonumber(BrandTame) then BrandTameTeam = 'البوت' elseif SudoId(user_id) then BrandTameTeam = 'المطور الاساسي' elseif DevRio:sismember(BrandTame..'Rio:RioSudo:', user_id) then BrandTameTeam = 'المطور الاساسي' elseif DevRio:sismember(BrandTame..'Rio:SecondSudo:', user_id) then BrandTameTeam = 'المطور الاساسي²' elseif DevRio:sismember(BrandTame..'Rio:SudoBot:', user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:SudoBot:Rd"..chat_id) or 'المطور' elseif DevRio:sismember(BrandTame..'Rio:Owner:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Owner:Rd"..chat_id) or 'المالك' elseif DevRio:sismember(BrandTame..'Rio:RioConstructor:'..chat_id, user_id) then BrandTameTeam = 'المالك' elseif DevRio:sismember(BrandTame..'Rio:BasicConstructor:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:BasicConstructor:Rd"..chat_id) or 'المنشئ الاساسي' elseif DevRio:sismember(BrandTame..'Rio:Constructor:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Constructor:Rd"..chat_id) or 'المنشئ' elseif DevRio:sismember(BrandTame..'Rio:Managers:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Managers:Rd"..chat_id) or 'المدير' elseif DevRio:sismember(BrandTame..'Rio:Admins:'..chat_id, user_id) then BrandTameTeam = DevRio:get(BrandTame.."Rio:Admins:Rd"..chat_id) or 'الادمن' elseif DevRio:sismember(BrandTame..'Rio:VipMem:'..chat_id, user_id) then  BrandTameTeam = DevRio:get(BrandTame.."Rio:VipMem:Rd"..chat_id) or 'المميز' elseif DevRio:sismember(BrandTame..'Rio:Cleaner:'..chat_id, user_id) then  BrandTameTeam = DevRio:get(BrandTame.."Rio:Cleaner:Rd"..chat_id) or 'المنظف' else BrandTameTeam = DevRio:get(BrandTame.."Rio:mem:Rd"..chat_id) or 'العضو' end return BrandTameTeam end
 --     Source BrandTame     --
 function RankChecking(user_id,chat_id)
 if SudoId(user_id) then
@@ -699,7 +699,7 @@ end
 function ReplyStatus(msg,user_id,status,text)
 tdcli_function ({ID = "GetUser",user_id_ = user_id},function(arg,dp) 
 if dp.first_name_ ~= false then
-local UserName = (dp.username_ or "ttttftfr")
+local UserName = (dp.username_ or "iinzzz")
 for gmatch in string.gmatch(dp.first_name_, "[^%s]+") do
 dp.first_name_ = gmatch
 end
@@ -1095,7 +1095,7 @@ local Rio = DataText:match('/Song:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(4,2824); 
 local Text ='*⌔︰تم اختيار المقطع الصوتي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/Song:"..data.sender_user_id_}},{{text=". TeAm BrandTame ⌔",url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/Song:"..data.sender_user_id_}},{{text="𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹",url="t.me/iinzzz"}}} 
 return https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. data.chat_id_ .. '&voice=https://t.me/AudiosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else
 end
@@ -1105,7 +1105,7 @@ local Rio = DataText:match('/mp3:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(2,1167); 
 local Text ='*⌔︰تم اختيار المقطع الصوتي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/mp3:"..data.sender_user_id_}},{{text=". TeAm BrandTame ⌔",url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/mp3:"..data.sender_user_id_}},{{text="𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹",url="t.me/iinzzz"}}} 
 return https.request("https://api.telegram.org/bot"..TokenBot..'/sendAudio?chat_id=' .. data.chat_id_ .. '&audio=https://t.me/DavidMp3/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else
 end
@@ -1115,7 +1115,7 @@ local Rio = DataText:match('/memz:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(2,1201); 
 local Text ='*⌔︰تم اختيار مقطع الميمز لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/memz:"..data.sender_user_id_}},{{text=". TeAm BrandTame ⌔",url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/memz:"..data.sender_user_id_}},{{text="𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹",url="t.me/iinzzz"}}} 
 return https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. data.chat_id_ .. '&voice=https://t.me/MemzDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 else
 end
@@ -1125,7 +1125,7 @@ local Rio = DataText:match('/gif:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(2,1075); 
 local Text ='*⌔︰تم اختيار المتحركه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/gif:"..data.sender_user_id_}},{{text=". TeAm BrandTame ⌔",url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/gif:"..data.sender_user_id_}},{{text="𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹",url="t.me/iinzzz"}}} 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendanimation?chat_id=' .. data.chat_id_ .. '&animation=https://t.me/GifDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     Source BrandTame     --
@@ -1134,7 +1134,7 @@ local Rio = DataText:match('/photo:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(4,1171); 
 local Text ='*⌔︰تم اختيار الصوره لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/photo:"..data.sender_user_id_}},{{text=". TeAm BrandTame ⌔",url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/photo:"..data.sender_user_id_}},{{text="𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹",url="t.me/iinzzz"}}} 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. data.chat_id_ .. '&photo=https://t.me/PhotosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     Source BrandTame     --
@@ -1143,7 +1143,7 @@ local Rio = DataText:match('/anime:'..tonumber(data.sender_user_id_)..'(.*)')
 Rio = math.random(3,1002); 
 local Text ='*⌔︰تم اختيار صورة الانمي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/anime:"..data.sender_user_id_}},{{text=". TeAm BrandTame ⌔",url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/anime:"..data.sender_user_id_}},{{text="𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹",url="t.me/iinzzz"}}} 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. data.chat_id_ .. '&photo=https://t.me/AnimeDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..Msg_Id2.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 --     Source BrandTame     --
@@ -1151,61 +1151,61 @@ if DataText and DataText:match(tonumber(data.sender_user_id_)..':SetMem:(.*)') t
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetMem:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:VipMem:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المميزين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المميزين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetCleaner:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetCleaner:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:Cleaner:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المنظفين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المنظفين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetAdmin:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetAdmin:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:Admins:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة الادمنيه')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة الادمنيه')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetManager:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetManager:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:Managers:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المدراء')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المدراء')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetConstructor:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetConstructor:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:Constructor:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المنشئين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المنشئين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetBasicConstructor:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetBasicConstructor:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:BasicConstructor:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المنشئين الاساسيين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المنشئين الاساسيين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetOwner:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetOwner:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:RioConstructor:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المالكين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المالكين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetSudoBot:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetSudoBot:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:SudoBot:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المطورين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المطورين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetSecondSudo:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetSecondSudo:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:SecondSudo:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المطورين الثانويين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المطورين الثانويين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':SetRioSudo:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':SetRioSudo:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:sadd(BrandTame..'Rio:RioSudo:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم رفعه في قائمة المطورين الاساسيين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم رفعه في قائمة المطورين الاساسيين')
 end,nil)
 end
 --     Source BrandTame     --
@@ -1213,61 +1213,61 @@ if DataText and DataText:match(tonumber(data.sender_user_id_)..':RemMem:(.*)') t
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemMem:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:VipMem:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المميزين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المميزين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemCleaner:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemCleaner:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:Cleaner:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المنظفين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المنظفين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemAdmin:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemAdmin:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:Admins:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة الادمنيه')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة الادمنيه')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemManager:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemManager:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:Managers:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المدراء')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المدراء')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemConstructor:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemConstructor:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:Constructor:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المنشئين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المنشئين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemBasicConstructor:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemBasicConstructor:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:BasicConstructor:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المنشئين الاساسيين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المنشئين الاساسيين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemOwner:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemOwner:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:RioConstructor:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المالكين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المالكين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemSudoBot:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemSudoBot:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:SudoBot:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المطورين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المطورين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemSecondSudo:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemSecondSudo:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:SecondSudo:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المطورين الثانويين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المطورين الثانويين')
 end,nil)
 elseif DataText and DataText:match(tonumber(data.sender_user_id_)..':RemRioSudo:(.*)') then
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':RemRioSudo:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:RioSudo:'..data.chat_id_,dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تنزيله في قائمة المطورين الاساسيين')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تنزيله في قائمة المطورين الاساسيين')
 end,nil)
 end
 --     Source BrandTame     --
@@ -1280,7 +1280,7 @@ EditMsg(Chat_Id2, Msg_Id2, '⌔︰لا تستطيع حظر ˓ '..IdRank(dp.id_, 
 else
 ChatKick(data.chat_id_, dp.id_)
 DevRio:sadd(BrandTame..'Rio:Ban:'..data.chat_id_, dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم حظره')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم حظره')
 end
 end
 end,nil)
@@ -1290,7 +1290,7 @@ local RioId = DataText:match(tonumber(data.sender_user_id_)..':UnBan:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:Ban:'..data.chat_id_,dp.id_)
 tdcli_function ({ ID = "ChangeChatMemberStatus", chat_id_ = data.chat_id_, user_id_ = dp.id_, status_ = { ID = "ChatMemberStatusLeft" },},function(arg,ban) end,nil)   
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم الغاء حظره')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم الغاء حظره')
 end,nil)
 end
 if DataText and DataText:match(tonumber(data.sender_user_id_)..':Mute:(.*)') then
@@ -1304,7 +1304,7 @@ if DevRio:sismember(BrandTame..'Rio:Muted:'..data.chat_id_, dp.id_) then
 EditMsg(Chat_Id2, Msg_Id2, "⌔︰هو بالفعل مكتوم من المجموعه")  
 else
 DevRio:sadd(BrandTame..'Rio:Muted:'..data.chat_id_, dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم كتمه')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم كتمه')
 end
 end
 end
@@ -1314,7 +1314,7 @@ if DataText and DataText:match(tonumber(data.sender_user_id_)..':UnMute:(.*)') t
 local RioId = DataText:match(tonumber(data.sender_user_id_)..':UnMute:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:Muted:'..data.chat_id_, dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم الغاء كتمه')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم الغاء كتمه')
 end,nil)
 end
 if DataText and DataText:match(tonumber(data.sender_user_id_)..':UnAll:(.*)') then
@@ -1322,7 +1322,7 @@ local RioId = DataText:match(tonumber(data.sender_user_id_)..':UnAll:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 DevRio:srem(BrandTame..'Rio:BanAll:', dp.id_)
 DevRio:srem(BrandTame..'Rio:MuteAll:', dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم الغاء العام')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم الغاء العام')
 end,nil)
 end
 if DataText and DataText:match(tonumber(data.sender_user_id_)..':Tkeed:(.*)') then
@@ -1334,7 +1334,7 @@ EditMsg(Chat_Id2, Msg_Id2, '⌔︰لا تستطيع تقيد ˓ '..IdRank(dp.id_
 else
 HTTPS.request("https://api.telegram.org/bot"..TokenBot.."/restrictChatMember?chat_id="..data.chat_id_.."&user_id="..dp.id_)
 DevRio:sadd(BrandTame..'Rio:Tkeed:'..data.chat_id_, dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم تقيده من المجموعه')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم تقيده من المجموعه')
 end
 end
 end,nil)
@@ -1344,7 +1344,7 @@ local RioId = DataText:match(tonumber(data.sender_user_id_)..':UnTkeed:(.*)')
 tdcli_function ({ID = "GetUser",user_id_ = RioId},function(arg,dp) 
 HTTPS.request("https://api.telegram.org/bot"..TokenBot.."/restrictChatMember?chat_id="..data.chat_id_.."&user_id="..dp.id_.."&can_send_messages=True&can_send_media_messages=True&can_send_other_messages=True&can_add_web_page_previews=True")
 DevRio:srem(BrandTame..'Rio:Tkeed:'..data.chat_id_, dp.id_)
-EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')\n⌔︰تم الغاء تقيده')
+EditMsg(Chat_Id2, Msg_Id2,'⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')\n⌔︰تم الغاء تقيده')
 end,nil)
 end
 --     Source BrandTame     --
@@ -1355,7 +1355,7 @@ if dp.first_name_ == false then
 Dev_Rio(data.chat_id_, data.id_, 1, "⌔︰الحساب محذوف", 1, "md")
 return false  
 end
-local Text = '⌔︰قم باستعمال الازرار لرفع العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')'
+local Text = '⌔︰قم باستعمال الازرار لرفع العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')'
 keyboard = {} 
 if Sudo(data) then
 keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="رفع ادمن",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="رفع منشئ",callback_data=data.sender_user_id_..":SetConstructor:"..Rio},{text="رفع مدير",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text="رفع منظف",callback_data=data.sender_user_id_..":SetCleaner:"..Rio},{text="رفع منشئ اساسي",callback_data=data.sender_user_id_..":SetBasicConstructor:"..Rio}},{{text="رفع مالك",callback_data=data.sender_user_id_..":SetOwner:"..Rio},{text="رفع مطور",callback_data=data.sender_user_id_..":SetSudoBot:"..Rio}},{{text="رفع مطور ثانوي",callback_data=data.sender_user_id_..":SetSecondSudo:"..Rio},{text="رفع مطور اساسي",callback_data=data.sender_user_id_..":SetRioSudo:"..Rio}}}
@@ -1370,7 +1370,7 @@ keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=data.sender_u
 elseif BasicConstructor(data) then
 keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="رفع ادمن",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="رفع منشئ",callback_data=data.sender_user_id_..":SetConstructor:"..Rio},{text="رفع مدير",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text="رفع منظف",callback_data=data.sender_user_id_..":SetCleaner:"..Rio}}}
 elseif Constructor(data) then
-keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="رفع ادمن",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="رفع منظف",callback_data=data.sender_user_id_..":SetCleaner:"..Rio},{text="رفع مدير",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text = '⌁ BrandTame TeAM.',url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="رفع ادمن",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}},{{text="رفع منظف",callback_data=data.sender_user_id_..":SetCleaner:"..Rio},{text="رفع مدير",callback_data=data.sender_user_id_..":SetManager:"..Rio}},{{text = '𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹',url="t.me/iinzzz"}}}
 elseif Manager(data) then
 keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=data.sender_user_id_..":SetMem:"..Rio},{text="رفع ادمن",callback_data=data.sender_user_id_..":SetAdmin:"..Rio}}}
 elseif Admin(data) then
@@ -1387,7 +1387,7 @@ if dp.first_name_ == false then
 Dev_Rio(data.chat_id_, data.id_, 1, "⌔︰الحساب محذوف", 1, "md")
 return false  
 end
-local Text = '⌔︰قم باستعمال الازرار لتنزيل العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')'
+local Text = '⌔︰قم باستعمال الازرار لتنزيل العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')'
 keyboard = {} 
 if Sudo(data) then
 keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منشئ",callback_data=data.sender_user_id_..":RemConstructor:"..Rio},{text="تنزيل مدير",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text="تنزيل منظف",callback_data=data.sender_user_id_..":RemCleaner:"..Rio},{text="تنزيل منشئ اساسي",callback_data=data.sender_user_id_..":RemBasicConstructor:"..Rio}},{{text="تنزيل مالك",callback_data=data.sender_user_id_..":RemOwner:"..Rio},{text="تنزيل مطور",callback_data=data.sender_user_id_..":RemSudoBot:"..Rio}},{{text="تنزيل مطور ثانوي",callback_data=data.sender_user_id_..":RemSecondSudo:"..Rio},{text="تنزيل مطور اساسي",callback_data=data.sender_user_id_..":RemRioSudo:"..Rio}}}
@@ -1402,7 +1402,7 @@ keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=data.send
 elseif BasicConstructor(data) then
 keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منشئ",callback_data=data.sender_user_id_..":RemConstructor:"..Rio},{text="تنزيل مدير",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text="تنزيل منظف",callback_data=data.sender_user_id_..":RemCleaner:"..Rio}}}
 elseif Constructor(data) then
-keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منظف",callback_data=data.sender_user_id_..":RemCleaner:"..Rio},{text="تنزيل مدير",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text = '⌁ BrandTame TeAM.',url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منظف",callback_data=data.sender_user_id_..":RemCleaner:"..Rio},{text="تنزيل مدير",callback_data=data.sender_user_id_..":RemManager:"..Rio}},{{text = '𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹',url="t.me/iinzzz"}}}
 elseif Manager(data) then
 keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=data.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=data.sender_user_id_..":RemAdmin:"..Rio}}}
 elseif Admin(data) then
@@ -1421,7 +1421,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 يمكنك مسح رتب المجموعه من خلال الازرار اسفل
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="مسح الاساسيين",callback_data="/DelBasicConstructor:"..data.sender_user_id_},{text="مسح المنشئين",callback_data="/DelConstructor:"..data.sender_user_id_}},{{text="مسح المدراء",callback_data="/DelManager:"..data.sender_user_id_},{text="مسح الادمنيه",callback_data="/DelAdmins:"..data.sender_user_id_}},{{text="مسح المميزين",callback_data="/DelVipMem:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -1694,7 +1694,7 @@ EditMsg(Chat_Id2, Msg_Id2, '⌔︰المجموعه بالتاكيد مفعله')
 else
 Text = "⌔︰تم تفعيل المجموعه "..dp.title_
 keyboard = {} 
-keyboard.inline_keyboard = {{{text="‹ ترتيب الاوامر ›",callback_data="/SetCmdGp:"..data.sender_user_id_},{text="‹ رفع الادمنيه ›",callback_data="/UploadAdmin:"..data.sender_user_id_}},{{text="‹ غادر ›",callback_data="/LeaveBot:"..data.sender_user_id_},{text="‹ تعطيل ›",callback_data="/Stop:"..data.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="‹ ترتيب الاوامر ›",callback_data="/SetCmdGp:"..data.sender_user_id_},{text="‹ رفع الادمنيه ›",callback_data="/UploadAdmin:"..data.sender_user_id_}},{{text="‹ غادر ›",callback_data="/LeaveBot:"..data.sender_user_id_},{text="‹ تعطيل ›",callback_data="/Stop:"..data.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/iinzzz"}}}
 https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 DevRio:sadd(BrandTame.."Rio:Groups",data.chat_id_)
 if not DevRio:get(BrandTame..'Rio:SudosGp'..data.sender_user_id_..data.chat_id_) and not SecondSudo(data) then 
@@ -1741,7 +1741,7 @@ EditMsg(Chat_Id2, Msg_Id2, "⌔︰المجموعه بالتاكيد معطله")
 else
 Text = "⌔︰تم تعطيل المجموعه "..dp.title_
 keyboard = {}
-keyboard.inline_keyboard = {{{text="‹ غادر ›",callback_data="/LeaveBot:"..data.sender_user_id_},{text="‹ تفعيل ›",callback_data="/On:"..data.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="‹ غادر ›",callback_data="/LeaveBot:"..data.sender_user_id_},{text="‹ تفعيل ›",callback_data="/On:"..data.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/iinzzz"}}}
 https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 DevRio:srem(BrandTame.."Rio:Groups",data.chat_id_)
 local Name1 = result.first_name_
@@ -1812,7 +1812,7 @@ DevRio:set(BrandTame.."Set:Cmd:Group:New1"..data.chat_id_..":#","مسح قائم
 DevRio:sadd(BrandTame.."List:Cmd:Group:New"..data.chat_id_,"#")
 Text = "⌔︰تم ترتيب الاوامر بالشكل التالي ~\n⌔︰ ايدي - ا .\n⌔︰ رفع مميز - م .\n⌔︰رفع ادمن - اد .\n⌔︰ رفع مدير - مد . \n⌔︰ رفع منشى - من . \n⌔︰ رفع منشئ الاساسي - اس  .\n⌔︰ رفع مطور - مط .\n⌔︰رفع مطور ثانوي - ثانوي .\n⌔︰ تنزيل الكل - تك .\n⌔︰ تعطيل الايدي بالصوره - تعط .\n⌔︰ تفعيل الايدي بالصوره - تفع .\n⌔︰ الرابط - ر .\n⌔︰ ردود المدير - رر .\n⌔︰ مسح المكتومين - ،، .\n⌔︰ اضف رد - رد .\n⌔︰ مسح سحكاتي - سح .\n⌔︰ مسح رسائلي - رس .\n⌔︰ غنيلي - غ .\n⌔︰مسح قائمه العام"
 keyboard = {} 
-keyboard.inline_keyboard = {{{text="‹ رجوع ›",callback_data="/Reload:"..data.sender_user_id_}},{{text='‹ TeAm BrandTame ›',url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="‹ رجوع ›",callback_data="/Reload:"..data.sender_user_id_}},{{text='‹ TeAm BrandTame ›',url="t.me/iinzzz"}}}
 return https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 --     Source David     --
@@ -1820,7 +1820,7 @@ if DataText and DataText:match('/Reload:'..tonumber(data.sender_user_id_)..'(.*)
 local Rio = DataText:match('/Reload:'..tonumber(data.sender_user_id_)..'(.*)')
 Text = "⌔︰تم تفعيل المجموعه"
 keyboard = {} 
-keyboard.inline_keyboard = {{{text="‹ ترتيب الاوامر ›",callback_data="/SetCmdGp:"..data.sender_user_id_},{text="‹ رفع الادمنيه ›",callback_data="/UploadAdmin:"..data.sender_user_id_}},{{text="‹ غادر ›",callback_data="/LeaveBot:"..data.sender_user_id_},{text="‹ تعطيل ›",callback_data="/Stop:"..data.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="‹ ترتيب الاوامر ›",callback_data="/SetCmdGp:"..data.sender_user_id_},{text="‹ رفع الادمنيه ›",callback_data="/UploadAdmin:"..data.sender_user_id_}},{{text="‹ غادر ›",callback_data="/LeaveBot:"..data.sender_user_id_},{text="‹ تعطيل ›",callback_data="/Stop:"..data.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/iinzzz"}}}
 https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 --     Source David     -- 
@@ -1864,7 +1864,7 @@ DevRio:del(BrandTame.."Rio:Add:AllRed"..data.sender_user_id_)
 DevRio:del(BrandTame.."DelSudoRep")
 Text = "⌔︰تم الغاء حفظ الرد"
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '⌔ TeAm BrandTame .',url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text = '⌔ TeAm BrandTame .',url="t.me/iinzzz"}}}
 https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end
@@ -1877,7 +1877,7 @@ DevRio:del(BrandTame..'Rio:Add:GpRed'..data.sender_user_id_..data.chat_id_)
 DevRio:del(BrandTame..'DelManagerRep'..data.chat_id_)
 Text = "⌔︰تم الغاء حفظ الرد"
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '⌔ TeAm BrandTame .',url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text = '⌔ TeAm BrandTame .',url="t.me/iinzzz"}}}
 https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end
@@ -1933,7 +1933,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 *⌔︰يمكنك مسح الممنوعات من خلال الازرار اسفل*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="مسح المتحركات",callback_data="/DelGif:"..data.sender_user_id_},{text="مسح الملصقات",callback_data="/DelSticker:"..data.sender_user_id_}},{{text="مسح الصور",callback_data="/DelPhoto:"..data.sender_user_id_},{text="مسح الكلمات",callback_data="/DelTextfilter:"..data.sender_user_id_}},{{text="مسح قوائم المنع",callback_data="/DelAllFilter:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}}}
@@ -1994,7 +1994,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 *⌔︰يمكنك فتح و قفل الاوامر من خلال الازرار اسفل*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="قفل الدردشه",callback_data="/lockText:"..data.sender_user_id_},{text="فتح الدردشه",callback_data="/unlockText:"..data.sender_user_id_}},{{text="قفل الدخول",callback_data="/lockjoin:"..data.sender_user_id_},{text="فتح الدخول",callback_data="/unlockjoin:"..data.sender_user_id_}},{{text="قفل البوتات",callback_data="/LockBotList:"..data.sender_user_id_},{text="فتح البوتات",callback_data="/unlockBot:"..data.sender_user_id_}},{{text="قفل الاشعارات",callback_data="/lockTagServr:"..data.sender_user_id_},{text="فتح الاشعارات",callback_data="/unlockTagServr:"..data.sender_user_id_}},{{text="قفل التعديل",callback_data="/lockEditMsgs:"..data.sender_user_id_},{text="فتح التعديل",callback_data="/unlockEditMsgs:"..data.sender_user_id_}},{{text="قفل الملصقات",callback_data="/lockStickers:"..data.sender_user_id_},{text="فتح الملصقات",callback_data="/unlockStickers:"..data.sender_user_id_}},{{text="قفل المتحركه",callback_data="/lockGifs:"..data.sender_user_id_},{text="فتح المتحركه",callback_data="/unlockGifs:"..data.sender_user_id_}},{{text="قفل الفيديو",callback_data="/lockVideos:"..data.sender_user_id_},{text="فتح الفيديو",callback_data="/unlockVideos:"..data.sender_user_id_}},{{text="قفل الصور",callback_data="/unlockPhoto:"..data.sender_user_id_},{text="فتح الصور",callback_data="/unlockPhoto:"..data.sender_user_id_}},{{text="قفل التوجيه",callback_data="/lockForwards:"..data.sender_user_id_},{text="فتح التوجيه",callback_data="/unlockForwards:"..data.sender_user_id_}},{{text="قفل التكرار",callback_data="/LockSpamList:"..data.sender_user_id_},{text="فتح التكرار",callback_data="/unlockSpam:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2013,7 +2013,7 @@ local Text = [[
 *⌔︰بالكتم*
 *⌔︰بالتقيد*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="قفل البوتات بالطرد",callback_data="/lockBotKick:"..data.sender_user_id_},{text="قفل البوتات بالتقيد",callback_data="/lockBotKed:"..data.sender_user_id_}},{{text="قفل البوتات بالكتم",callback_data="/lockBotDel:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• رجوع •",callback_data="/locklist:"..data.sender_user_id_}}}
@@ -2033,7 +2033,7 @@ local Text = [[
 *⌔︰بالتقيد*
 *⌔︰بالحذف*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="قفل التكرار بالطرد",callback_data="/lockSpamKick:"..data.sender_user_id_},{text="قفل التكرار بالتقيد",callback_data="/lockSpamKed:"..data.sender_user_id_}},{{text="قفل التكرار بالحذف",callback_data="/lockSpamDel:"..data.sender_user_id_},{text="قفل التكرار بالكتم",callback_data="/lockSpamMute:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• رجوع •",callback_data="/locklist:"..data.sender_user_id_}}}
@@ -2265,7 +2265,7 @@ Text =[[
 *⌔︰قائمه الالعاب المتطوره اضغط للعب*
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {{{text="♟ الشطرنج ♟",url='https://t.me/T4TTTTBOT?game=chess'}},{{text="لعبة فلابي بيرد 🐥",url='https://t.me/awesomebot?game=FlappyBird'},{text="تحدي الرياضيات",url='https://t.me/gamebot?game=MathBattle'}},{{text="اكس او",url='t.me/xobot?start'},{text="سباق الدراجات 🏍",url='https://t.me/gamee?game=MotoFX'}},{{text="سباق سيارات 🏎",url='https://t.me/gamee?game=F1Racer'},{text="متشابه 👾",url='https://t.me/gamee?game=DiamondRows'}},{{text="كرة قدم ⚽",url='https://t.me/gamee?game=FootballStar'}},{{text="ورق🤹‍♂",url='https://t.me/gamee?game=Hexonix'},{text="Hexonix❌",url='https://t.me/gamee?game=Hexonix'}},{{text="MotoFx🏍️",url='https://t.me/gamee?game=MotoFx'}},{{text="لعبة 2048 🎰",url='https://t.me/awesomebot?game=g2048'},{text="Squares🏁",url='https://t.me/gamee?game=Squares'}},{{text="Atomic 1▶️",url='https://t.me/gamee?game=AtomicDrop1'},{text="Corsairs",url='https://t.me/gamebot?game=Corsairs'}},{{text="LumberJack",url='https://t.me/gamebot?game=LumberJack'}},{{text="LittlePlane",url='https://t.me/gamee?game=LittlePlane'},{text="RollerDisco",url='https://t.me/gamee?game=RollerDisco'}},{{text="🦖 لعبة التنين 🦖",url='https://t.me/T4TTTTBOT?game=dragon'},{text="🐍 لعبة الافعى 🐍",url='https://t.me/T4TTTTBOT?game=snake'}},{{text="🔵 لعبة الالوان 🔴",url='https://t.me/T4TTTTBOT?game=color'}},{{text="🚀 لعبة الصاروخ 🚀",url='https://t.me/T4TTTTBOT?game=rocket'},{text="🏹 لعبة السهام 🏹",url='https://t.me/T4TTTTBOT?game=arrow'}},{{text="لعبة النينجا",url='https://t.me/gamee?game=GravityNinja21'},{text="لعبة الكرتي",url='https://t.me/gamee?game=KarateKid2'}},{{text = '⌔ TeAm BrandTame .', url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="♟ الشطرنج ♟",url='https://t.me/T4TTTTBOT?game=chess'}},{{text="لعبة فلابي بيرد 🐥",url='https://t.me/awesomebot?game=FlappyBird'},{text="تحدي الرياضيات",url='https://t.me/gamebot?game=MathBattle'}},{{text="اكس او",url='t.me/xobot?start'},{text="سباق الدراجات 🏍",url='https://t.me/gamee?game=MotoFX'}},{{text="سباق سيارات 🏎",url='https://t.me/gamee?game=F1Racer'},{text="متشابه 👾",url='https://t.me/gamee?game=DiamondRows'}},{{text="كرة قدم ⚽",url='https://t.me/gamee?game=FootballStar'}},{{text="ورق🤹‍♂",url='https://t.me/gamee?game=Hexonix'},{text="Hexonix❌",url='https://t.me/gamee?game=Hexonix'}},{{text="MotoFx🏍️",url='https://t.me/gamee?game=MotoFx'}},{{text="لعبة 2048 🎰",url='https://t.me/awesomebot?game=g2048'},{text="Squares🏁",url='https://t.me/gamee?game=Squares'}},{{text="Atomic 1▶️",url='https://t.me/gamee?game=AtomicDrop1'},{text="Corsairs",url='https://t.me/gamebot?game=Corsairs'}},{{text="LumberJack",url='https://t.me/gamebot?game=LumberJack'}},{{text="LittlePlane",url='https://t.me/gamee?game=LittlePlane'},{text="RollerDisco",url='https://t.me/gamee?game=RollerDisco'}},{{text="🦖 لعبة التنين 🦖",url='https://t.me/T4TTTTBOT?game=dragon'},{text="🐍 لعبة الافعى 🐍",url='https://t.me/T4TTTTBOT?game=snake'}},{{text="🔵 لعبة الالوان 🔴",url='https://t.me/T4TTTTBOT?game=color'}},{{text="🚀 لعبة الصاروخ 🚀",url='https://t.me/T4TTTTBOT?game=rocket'},{text="🏹 لعبة السهام 🏹",url='https://t.me/T4TTTTBOT?game=arrow'}},{{text="لعبة النينجا",url='https://t.me/gamee?game=GravityNinja21'},{text="لعبة الكرتي",url='https://t.me/gamee?game=KarateKid2'}},{{text = '⌔ TeAm BrandTame .', url="t.me/iinzzz"}}}
 https.request("https://api.telegram.org/bot"..TokenBot..'/editMessageText?chat_id='..Chat_Id2..'&message_id='..Msg_Id2..'&text=' .. URL.escape(Text).."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end end
@@ -2436,7 +2436,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ⌔︰يمكنك التعطيل والتفعيل عن طريق الازرار بلاسفل
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="تعطيل الايدي بالصوره",callback_data="/LockIdPhoto:"..data.sender_user_id_},{text="تفعيل الايدي بالصوره",callback_data="/UnLockIdPhoto:"..data.sender_user_id_}},{{text="تعطيل الايدي",callback_data="/LockId:"..data.sender_user_id_},{text="تفعيل الايدي",callback_data="/UnLockId:"..data.sender_user_id_}},{{text="تعطيل الرابط",callback_data="/LockGpLinks:"..data.sender_user_id_},{text="تفعيل الرابط",callback_data="/UnLockGpLinks:"..data.sender_user_id_}},{{text="تعطيل الرابط انلاين",callback_data="/LockGpLinksinline:"..data.sender_user_id_},{text="تفعيل الرابط انلاين",callback_data="/UnLockGpLinksinline:"..data.sender_user_id_}},{{text="تعطيل الترحيب",callback_data="/LockWelcome:"..data.sender_user_id_},{text="تفعيل الترحيب",callback_data="/UnLockWelcome:"..data.sender_user_id_}},{{text="تعطيل الردود المطور",callback_data="/LockAllRed:"..data.sender_user_id_},{text="تفعيل الردود المطور",callback_data="/UnLockAllRed:"..data.sender_user_id_}},{{text="تعطيل ردود المدير",callback_data="/LockGpRed:"..data.sender_user_id_},{text="تفعيل ردود المدير",callback_data="/UnLockGpRed:"..data.sender_user_id_}},{{text="تعطيل نزلني",callback_data="/LockDelMe:"..data.sender_user_id_},{text="تفعيل نزلني",callback_data="/UnLockDelMe:"..data.sender_user_id_}},{{text="تعطيل اطردني",callback_data="/LockKickMe:"..data.sender_user_id_},{text="تفعيل اطردني",callback_data="/UnLockKickMe:"..data.sender_user_id_}},{{text="تعطيل الحظر",callback_data="/LockKickBan:"..data.sender_user_id_},{text="تفعيل الحظر",callback_data="/UnLockKickBan:"..data.sender_user_id_}},{{text="تعطيل الرفع",callback_data="/LockProSet:"..data.sender_user_id_},{text="تفعيل الرفع",callback_data="/UnLockProSet:"..data.sender_user_id_}},{{text="تعطيل الالعاب",callback_data="/LockGames:"..data.sender_user_id_},{text="تفعيل الالعاب",callback_data="/UnLockGames:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2658,7 +2658,7 @@ local Text = [[
 ⌔︰م5 ˓ اوامر المطورين
 ⌔︰م6 ˓ اوامر الاعضاء
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="اوامر الرتب",callback_data="/DelList:"..data.sender_user_id_}},{{text="التفعيل و التعطيل",callback_data="/lockorder:"..data.sender_user_id_},{text="القفل و الفتح",callback_data="/locklist:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}}}
@@ -2720,7 +2720,7 @@ local Text = [[
 ⌔︰البوتات بالطرد
 ⌔︰البوتات بالتقيد
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2789,7 +2789,7 @@ local Text = [[
 ⌔︰تقييد يوم + عدد الايام
 ⌔︰الغاء تقييد ˓ لالغاء التقييد بالوقت
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2848,7 +2848,7 @@ local Text = [[
 ⌔︰ردود المدير • ردود المطور • التحقق
 ⌔︰ضافني • حساب العمر • الزخرفه
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2901,7 +2901,7 @@ local Text = [[
 ⌔︰المنشئين الاساسيين 
 ⌔︰حذف جميع الرتب
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -2979,7 +2979,7 @@ local Text = [[
 ⌔︰ترحيب البوت • المغادره
 ⌔︰البوت الخدمي • التواصل
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -3019,7 +3019,7 @@ local Text = [[
 ⌔︰تحويل + بالرد ˓ صوره • ملصق • صوت • بصمه
 ⌔︰انطق + الكلام تدعم جميع اللغات مع الترجمه للعربي
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..data.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..data.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..data.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..data.sender_user_id_}},{{text="اوامر المطورين",callback_data="/HelpList5:"..data.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_}},{{text="• رجوع •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -3238,19 +3238,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local mrrio = DevRio:get(BrandTame.."Comd:New:rt:Rio:"..DEV_RIO..msg.chat_id_)
 if mrrio == "مميز" and VipMem(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 DevRio:set(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_RIO) 
 DevRio:sadd(BrandTame..'Rio:VipMem:'..msg.chat_id_, result.sender_user_id_)
 elseif mrrio == "ادمن" and Admin(msg) then 
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 DevRio:set(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_RIO)
 DevRio:sadd(BrandTame..'Rio:Admins:'..msg.chat_id_, result.sender_user_id_)
 elseif mrrio == "مدير" and Manager(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 DevRio:set(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_,DEV_RIO)  
 DevRio:sadd(BrandTame..'Rio:Managers:'..msg.chat_id_, result.sender_user_id_)
 elseif mrrio == "عضو" then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 end
 end,nil)   
 end   
@@ -3264,19 +3264,19 @@ function by_reply(extra, result, success)
 tdcli_function ({ID = "GetUser",user_id_ = result.sender_user_id_},function(arg,data) 
 local mrrio = DevRio:get(BrandTame.."Comd:New:rt:Rio:"..DEV_RIO..msg.chat_id_)
 if mrrio == "مميز" and VipMem(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 DevRio:srem(BrandTame..'Rio:VipMem:'..msg.chat_id_, result.sender_user_id_)
 DevRio:del(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrrio == "ادمن" and Admin(msg) then 
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 DevRio:srem(BrandTame..'Rio:Admins:'..msg.chat_id_, result.sender_user_id_)
 DevRio:del(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrrio == "مدير" and Manager(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 DevRio:srem(BrandTame..'Rio:Managers:'..msg.chat_id_, result.sender_user_id_)
 DevRio:del(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.sender_user_id_)
 elseif mrrio == "عضو" then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..data.first_name_..'](t.me/'..(data.username_ or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..DEV_RIO..' ❩ بنجاح', 1, 'md')
 end
 end,nil)   
 end   
@@ -3290,19 +3290,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local mrrio = DevRio:get(BrandTame.."Comd:New:rt:Rio:"..text1[2]..msg.chat_id_)
 if mrrio == "مميز" and VipMem(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevRio:sadd(BrandTame..'Rio:VipMem:'..msg.chat_id_, result.id_)
 DevRio:set(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrrio == "ادمن" and Admin(msg) then 
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevRio:sadd(BrandTame..'Rio:Admins:'..msg.chat_id_, result.id_)
 DevRio:set(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrrio == "مدير" and Manager(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevRio:sadd(BrandTame..'Rio:Managers:'..msg.chat_id_, result.id_)
 DevRio:set(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.id_,text1[2])
 elseif mrrio == "عضو" then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم رفعه ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 end
 else
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰*المعرف غير صحيح*", 1, 'md')
@@ -3318,19 +3318,19 @@ function py_username(extra, result, success)
 if result.id_ then
 local mrrio = DevRio:get(BrandTame.."Comd:New:rt:Rio:"..text1[2]..msg.chat_id_)
 if mrrio == "مميز" and VipMem(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevRio:srem(BrandTame..'Rio:VipMem:'..msg.chat_id_, result.id_)
 DevRio:del(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrrio == "ادمن" and Admin(msg) then 
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevRio:srem(BrandTame..'Rio:Admins:'..msg.chat_id_, result.id_)
 DevRio:del(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrrio == "مدير" and Manager(msg) then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 DevRio:srem(BrandTame..'Rio:Managers:'..msg.chat_id_, result.id_)
 DevRio:del(BrandTame.."Comd:New:rt:User:"..msg.chat_id_..result.id_)
 elseif mrrio == "عضو" then
-Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'ttttftfr')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
+Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰العضو ˓ ❨ ['..result.title_..'](t.me/'..(text1[3] or 'iinzzz')..')'..' ❩\n⌔︰تم تنزيله ❨ '..text1[2]..' ❩ بنجاح', 1, 'md')
 end
 else
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰*المعرف غير صحيح*", 1, 'md')
@@ -3392,7 +3392,7 @@ local Sudo_Welcome = '⌔︰اهلا بك مجددا عزيزي المطور \n�
 local key = {
 {'˓ تحديث السورس ⌔','˓ تحديث ⌔'},
 {'˓ السيرفر ⌔'},
-{'˓ مبرمج السورس ⌔','˓ قناة السورس ⌔'},
+{'˓ مطور السورس ⌔','˓ قناة السورس ⌔'},
 {'˓  السورس ⌔'},
 {'˓ رجوع ⌔'},
 }
@@ -3561,8 +3561,8 @@ if not DevRio:get(BrandTame..'Rio:Start:Time'..msg.sender_user_id_) then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,dp)
 tdcli_function({ID="GetUser",user_id_=BrandTame},function(arg,dpbot)
 local inline = {
-{{text="⌔ المطور .",url="t.me/"..(dp.username_ or "Htdxs")}},
-{{text="⌔ السورس .",url="https://t.me/ttttftfr"},{text="⌔ لتنصيب بوت .",url="https://t.me/Htdxs"}},{{text="⌔ اضفني في مجموعتك .",url="t.me/"..dpbot.username_.."?startgroup=botstart"}}
+{{text="⌔ المطور .",url="t.me/"..(dp.username_ or "RFRFF")}},
+{{text="⌔ السورس .",url="https://t.me/iinzzz"},{text="⌔ لتنصيب بوت .",url="https://t.me/RFRFF"}},{{text="⌔ اضفني في مجموعتك .",url="t.me/"..dpbot.username_.."?startgroup=botstart"}}
 }
 local start = DevRio:get(BrandTame.."Rio:Start:Bot")
 if start then 
@@ -3580,7 +3580,7 @@ end
 --     Source BrandTame     --
 if not SecondSudo(msg) and not DevRio:sismember(BrandTame..'Rio:Ban:Pv',msg.sender_user_id_) and not DevRio:get(BrandTame..'Rio:Texting:Pv') then
 tdcli_function({ID="GetUser",user_id_=DevId},function(arg,chat) 
-Dev_Rio(msg.sender_user_id_, msg.id_, 1, '⌔︰تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "ttttftfr")..')', 1, 'md') 
+Dev_Rio(msg.sender_user_id_, msg.id_, 1, '⌔︰تم ارسال رسالتك الى [المطور](t.me/'..(chat.username_ or "iinzzz")..')', 1, 'md') 
 tdcli_function({ID="ForwardMessages",chat_id_=DevId,from_chat_id_= msg.sender_user_id_,message_ids_={[0]=msg.id_},disable_notification_=1,from_background_=1},function(arg,data) 
 tdcli_function({ID="GetUser",user_id_=msg.sender_user_id_},function(arg,dp) 
 if data and data.messages_ and data.messages_[0] ~= false and data.ID ~= "Error" then
@@ -3788,7 +3788,7 @@ keyboard.inline_keyboard = {
 {{text="🔵 لعبة الالوان 🔴",url='https://t.me/T4TTTTBOT?game=color'}},
 {{text="🚀 لعبة الصاروخ 🚀",url='https://t.me/T4TTTTBOT?game=rocket'},{text="🏹 لعبة السهام 🏹",url='https://t.me/T4TTTTBOT?game=arrow'}},
 {{text="لعبة النينجا",url='https://t.me/gamee?game=GravityNinja21'},{text="لعبة الكرتي",url='https://t.me/gamee?game=KarateKid2'}},
-{{text = '⌔ TeAm BrandTame .', url="t.me/ttttftfr"}},
+{{text = '⌔ TeAm BrandTame .', url="t.me/iinzzz"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -4649,7 +4649,7 @@ Welcomes = '• نورت حبي \n• firstname \n• @username'
 end
 local Welcomes = Welcomes:gsub('"',"") Welcomes = Welcomes:gsub("'","") Welcomes = Welcomes:gsub(",","") Welcomes = Welcomes:gsub("*","") Welcomes = Welcomes:gsub(";","") Welcomes = Welcomes:gsub("`","") Welcomes = Welcomes:gsub("{","") Welcomes = Welcomes:gsub("}","") 
 local Welcomes = Welcomes:gsub('firstname',('['..result.first_name_..']' or ''))
-local Welcomes = Welcomes:gsub('username',('[@'..result.username_..']' or '[@ttttftfr]'))
+local Welcomes = Welcomes:gsub('username',('[@'..result.username_..']' or '[@iinzzz]'))
 Dev_Rio(msg.chat_id_, msg.id_, 1, Welcomes, 1, 'md')
 end 
 if DevRio:get(BrandTame.."Rio:Lock:Welcome"..msg.chat_id_) then
@@ -4697,7 +4697,7 @@ Welcomes = '• نورت حبي \n• firstname \n• username'
 end
 local Welcomes = Welcomes:gsub('"',"") Welcomes = Welcomes:gsub("'","") Welcomes = Welcomes:gsub(",","") Welcomes = Welcomes:gsub("*","") Welcomes = Welcomes:gsub(";","") Welcomes = Welcomes:gsub("`","") Welcomes = Welcomes:gsub("{","") Welcomes = Welcomes:gsub("}","") 
 local Welcomes = Welcomes:gsub('firstname',('['..msg.content_.members_[0].first_name_..']' or ''))
-local Welcomes = Welcomes:gsub('username',('[@'..msg.content_.members_[0].username_..']' or '[@ttttftfr]'))
+local Welcomes = Welcomes:gsub('username',('[@'..msg.content_.members_[0].username_..']' or '[@iinzzz]'))
 Dev_Rio(msg.chat_id_, msg.id_, 1, Welcomes, 1, 'md')
 end
 --     Source BrandTame     --
@@ -5996,7 +5996,7 @@ local Text = [[
 *⌔︰ريمكس*
 *⌔︰ميمز*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="غنيلي",callback_data="/Song:"..msg.sender_user_id_},{text="اغنيه",callback_data="/mp3:"..msg.sender_user_id_}},{{text="متحركه",callback_data="/gif:"..msg.sender_user_id_},{text="صوره",callback_data="/photo:"..msg.sender_user_id_}},{{text="انمي",callback_data="/anime:"..msg.sender_user_id_},{text="ريمكس",callback_data="/remix:"..msg.sender_user_id_}},{{text="ميمز",callback_data="/memz:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}}}
@@ -6011,7 +6011,7 @@ if dp.first_name_ == false then
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰الحساب محذوف", 1, "md")
 return false  
 end
-local Text = '⌔︰قم باستعمال الازرار للتحكم العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')'
+local Text = '⌔︰قم باستعمال الازرار للتحكم العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')'
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="رفع رتبه",callback_data=msg.sender_user_id_..":SetList:"..result.sender_user_id_},{text="تنزيل رتبه",callback_data=msg.sender_user_id_..":RemList:"..result.sender_user_id_}},{{text="كتم",callback_data=msg.sender_user_id_..":Mute:"..result.sender_user_id_},{text="الغاء كتم",callback_data=msg.sender_user_id_..":UnMute:"..result.sender_user_id_}},{{text="حظر",callback_data=msg.sender_user_id_..":Ban:"..result.sender_user_id_},{text="الغاء حظر",callback_data=msg.sender_user_id_..":UnBan:"..result.sender_user_id_}},{{text="تقيد",callback_data=msg.sender_user_id_..":Tkeed:"..result.sender_user_id_},{text="الغاء تقيد",callback_data=msg.sender_user_id_..":UnTkeed:"..result.sender_user_id_}}}
 Msg_id = msg.id_/2097152/0.5
@@ -6030,7 +6030,7 @@ if dp.first_name_ == false then
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰الحساب محذوف", 1, "md")
 return false  
 end
-local Text = '⌔︰قم باستعمال الازرار لرفع العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')'
+local Text = '⌔︰قم باستعمال الازرار لرفع العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')'
 keyboard = {} 
 if Sudo(msg) then
 keyboard.inline_keyboard = {{{text="رفع مميز",callback_data=msg.sender_user_id_..":SetMem:"..result.sender_user_id_},{text="رفع ادمن",callback_data=msg.sender_user_id_..":SetAdmin:"..result.sender_user_id_}},{{text="رفع منشئ",callback_data=msg.sender_user_id_..":SetConstructor:"..result.sender_user_id_},{text="رفع مدير",callback_data=msg.sender_user_id_..":SetManager:"..result.sender_user_id_}},{{text="رفع منظف",callback_data=msg.sender_user_id_..":SetCleaner:"..result.sender_user_id_},{text="رفع منشئ اساسي",callback_data=msg.sender_user_id_..":SetBasicConstructor:"..result.sender_user_id_}},{{text="رفع مالك",callback_data=msg.sender_user_id_..":SetOwner:"..result.sender_user_id_},{text="رفع مطور",callback_data=msg.sender_user_id_..":SetSudoBot:"..result.sender_user_id_}},{{text="رفع مطور ثانوي",callback_data=msg.sender_user_id_..":SetSecondSudo:"..result.sender_user_id_},{text="رفع مطور اساسي",callback_data=msg.sender_user_id_..":SetRioSudo:"..result.sender_user_id_}}}
@@ -6067,7 +6067,7 @@ if dp.first_name_ == false then
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰الحساب محذوف", 1, "md")
 return false  
 end
-local Text = '⌔︰قم باستعمال الازرار لتنزيل العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'ttttftfr')..')'
+local Text = '⌔︰قم باستعمال الازرار لتنزيل العضو ∵\n⌔︰العضو ˓ ['..dp.first_name_..'](t.me/'..(dp.username_ or 'iinzzz')..')'
 keyboard = {} 
 if Sudo(msg) then
 keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=msg.sender_user_id_..":RemMem:"..result.sender_user_id_},{text="تنزيل ادمن",callback_data=msg.sender_user_id_..":RemAdmin:"..result.sender_user_id_}},{{text="تنزيل منشئ",callback_data=msg.sender_user_id_..":RemConstructor:"..result.sender_user_id_},{text="تنزيل مدير",callback_data=msg.sender_user_id_..":RemManager:"..result.sender_user_id_}},{{text="تنزيل منظف",callback_data=msg.sender_user_id_..":RemCleaner:"..result.sender_user_id_},{text="تنزيل منشئ اساسي",callback_data=msg.sender_user_id_..":RemBasicConstructor:"..result.sender_user_id_}},{{text="تنزيل مالك",callback_data=msg.sender_user_id_..":RemAbsConstructor:"..result.sender_user_id_},{text="تنزيل مطور",callback_data=msg.sender_user_id_..":RemSudoBot:"..result.sender_user_id_}},{{text="تنزيل مطور ثانوي",callback_data=msg.sender_user_id_..":RemSecondSudo:"..result.sender_user_id_},{text="تنزيل مطور اساسي",callback_data=msg.sender_user_id_..":RemRioSudo:"..result.sender_user_id_}}}
@@ -6082,7 +6082,7 @@ keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=msg.sende
 elseif BasicConstructor(data) then
 keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منشئ",callback_data=msg.sender_user_id_..":RemConstructor:"..Rio},{text="تنزيل مدير",callback_data=msg.sender_user_id_..":RemManager:"..Rio}},{{text="تنزيل منظف",callback_data=msg.sender_user_id_..":RemCleaner:"..Rio}}}
 elseif Constructor(data) then
-keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منظف",callback_data=msg.sender_user_id_..":RemCleaner:"..Rio},{text="تنزيل مدير",callback_data=msg.sender_user_id_..":RemManager:"..Rio}},{{text = '⌁ BrandTame TeAM.',url="t.me/ttttftfr"}}}
+keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}},{{text="تنزيل منظف",callback_data=msg.sender_user_id_..":RemCleaner:"..Rio},{text="تنزيل مدير",callback_data=msg.sender_user_id_..":RemManager:"..Rio}},{{text = '𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹',url="t.me/iinzzz"}}}
 elseif Manager(data) then
 keyboard.inline_keyboard = {{{text="تنزيل مميز",callback_data=msg.sender_user_id_..":RemMem:"..Rio},{text="تنزيل ادمن",callback_data=msg.sender_user_id_..":RemAdmin:"..Rio}}}
 elseif Admin(data) then
@@ -6131,7 +6131,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ⌔︰نقاطي • بيع نقاطي
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="الالعاب المتطوره",callback_data="/GameInline:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}}}
@@ -6291,12 +6291,12 @@ end
 if text == "سورس" and ChCheck(msg) or text == "السورس" and ChCheck(msg) or text == "يا سورس" and ChCheck(msg) or text == "˓  السورس ⌔" and ChCheck(msg) then
 Text = [[
 Welcome To Source
-⌔︰[TeAm BrandTame](https://t.me/ttttftfr)
+⌔︰[𝆥 𝗦𝗡𝗮𝗣 𝗧𝗘𝗮𝗺 ⤹](https://t.me/iinzzz)
 ]]
 keyboard = {} 
-keyboard.inline_keyboard = {{{text = '⌔ Source Channel',url="https://t.me/ttttftfr"}},{{text = '⌔ Developer',url="t.me/Htdxs"},{text = '⌔ Tws BrandTame',url="https://t.me/FFFFEWbot"}},{{text= '⌔ Exp Source .',url="https://t.me/tttiyf"}}}
+keyboard.inline_keyboard = {{{text = '⌔ Source Channel',url="https://t.me/iinzzz"}},{{text = '⌔ Developer',url="t.me/RFRFF"},{text = '⌔ 𝐓𝐖𝐒 𝐒𝐍𝐀𝐏',url="https://t.me/Y22fbot"}},{{text= '⌔ Exp Source .',url="https://t.me/BBI9B"}}}
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ttttftfr&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/iinzzz&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end
 --     Source BrandTame     --
@@ -8474,7 +8474,7 @@ tdcli_function ({ID="GetUserProfilePhotos",user_id_=Manager_id,offset_=0,limit_=
 if getpro.photos_[0] then
 Text = "*⌔︰Owner Name ↬ * ["..dp.first_name_.."](T.me/"..dp.username_..")\n*⌔︰Owner User ↬* [@"..dp.username_.."]\n*⌔︰Owner id ↬* ["..dp.id_.."](T.me/"..dp.username_..")"
 keyboard = {} 
-keyboard.inline_keyboard = {{{text=''..dp.first_name_..'',url="t.me/"..dp.username_ or ttttftfr}}}
+keyboard.inline_keyboard = {{{text=''..dp.first_name_..'',url="t.me/"..dp.username_ or iinzzz}}}
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id='..msg.chat_id_..'&caption='..URL.escape(Text)..'&photo='..getpro.photos_[0].sizes_[1].photo_.persistent_id_..'&reply_to_message_id='..msg_id..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
 else
@@ -8687,7 +8687,7 @@ if dp.first_name_ == false then
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰حساب المنشئ محذوف", 1, "md")
 return false  
 end
-local UserName = (dp.username_ or "ttttftfr")
+local UserName = (dp.username_ or "iinzzz")
 Dev_Rio(msg.chat_id_, msg.id_, 1, "⌔︰تم رفع مالك المجموعه ˓ ["..dp.first_name_.."](T.me/"..UserName..")", 1, "md") 
 DevRio:sadd(BrandTame.."Rio:RioConstructor:"..msg.chat_id_,dp.id_)
 end,nil)   
@@ -10691,7 +10691,7 @@ local TXTE = "⌔︰اعدادات المجموعه ∵\n┉ ┉ ┉ ┉ ┉ ┉
 .."⌔︰التكرار ˓ "..flood.."\n"
 .."⌔︰عدد التكرار ˓ "..Flood_Num.."\n"
 .."⌔︰عدد السبام ˓ "..spam_c.."\n"
-.."┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n⌔︰[Source Channel](https://t.me/ttttftfr)\n"
+.."┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉\n⌔︰[Source Channel](https://t.me/iinzzz)\n"
 Dev_Rio(msg.chat_id_, msg.id_, 1, TXTE, 1, 'md')
 end
 end
@@ -11006,7 +11006,7 @@ if text and (text == "متحركه" or text == "˓ متحركه ⌔") and not De
 Rio = math.random(2,1075); 
 local Text ='*⌔︰تم اختيار المتحركه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/gif:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/gif:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendanimation?chat_id=' .. msg.chat_id_ .. '&animation=https://t.me/GifDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11025,7 +11025,7 @@ if text and (text == "ميمز" or text == "˓ ميمز ⌔") and not DevRio:get
 Rio = math.random(2,1201); 
 local Text ='*⌔︰تم اختيار مقطع الميمز لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/memz:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/memz:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/MemzDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11044,7 +11044,7 @@ if text and (text == "غنيلي" or text == "˓ غنيلي ⌔") and not DevRio
 Rio = math.random(4,2824); 
 local Text ='*⌔︰تم اختيار المقطع الصوتي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/Song:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/Song:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/AudiosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11063,7 +11063,7 @@ if text and (text == "اغنيه" or text == "˓ اغنيه ⌔" or text == "ا�
 Rio = math.random(2,1167); 
 local Text ='*⌔︰تم اختيار الاغنيه لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/mp3:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/mp3:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendAudio?chat_id=' .. msg.chat_id_ .. '&audio=https://t.me/DavidMp3/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11082,7 +11082,7 @@ if text and (text == "ريمكس" or text == "˓ ريمكس ⌔") and not DevRio
 Rio = math.random(2,612); 
 local Text ='*⌔︰تم اختيار الريمكس لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/remix:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/remix:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendVoice?chat_id=' .. msg.chat_id_ .. '&voice=https://t.me/RemixDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11101,7 +11101,7 @@ if text and (text == "صوره" or text == "˓ صوره ⌔") and not DevRio:get
 Rio = math.random(4,1171); 
 local Text ='*⌔︰تم اختيار الصوره لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/photo:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/photo:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/PhotosDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11120,7 +11120,7 @@ if text and (text == "انمي" or text == "˓ انمي ⌔") and not DevRio:get
 Rio = math.random(3,1002); 
 local Text ='*⌔︰تم اختيار صورة الانمي لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/anime:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/anime:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/AnimeDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11139,7 +11139,7 @@ if text and (text == "فلم" or text == "˓ فلم ⌔") and not DevRio:get(Bra
 Rio = math.random(45,125); 
 local Text ='*⌔︰تم اختيار الفلم لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/Movies:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/Movies:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/MoviesDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11158,7 +11158,7 @@ if text and (text == "مسلسل" or text == "˓ مسلسل ⌔") and not DevRio
 Rio = math.random(2,54); 
 local Text ='*⌔︰تم اختيار المسلسل لك*'
 keyboard = {}  
-keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/series:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/ttttftfr"}}} 
+keyboard.inline_keyboard = {{{text=". مره اخرى ⌔",callback_data="/series:"..msg.sender_user_id_}},{{text = '⌔ BrandTame Team .',url="t.me/iinzzz"}}} 
 local msg_id = msg.id_/2097152/0.5 
 https.request("https://api.telegram.org/bot"..TokenBot..'/sendphoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/SeriesDavid/'..Rio..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
@@ -11425,7 +11425,7 @@ local TkeedList = DevRio:scard(BrandTame.."Rio:Rio:Tkeed:"..ChatId) or 0
 local AdminsList = DevRio:scard(BrandTame.."Rio:Admins:"..ChatId) or 0
 local VipList = DevRio:scard(BrandTame.."Rio:VipMem:"..ChatId) or 0
 local LinkGp = json:decode(https.request('https://api.telegram.org/bot'..TokenBot..'/exportChatInviteLink?chat_id='..ChatId))
-if LinkGp.ok == true then LinkGroup = LinkGp.result else LinkGroup = 't.me/ttttftfr' end
+if LinkGp.ok == true then LinkGroup = LinkGp.result else LinkGroup = 't.me/iinzzz' end
 tdcli_function({ID ="GetChat",chat_id_=ChatId},function(arg,dp)
 tdcli_function ({ID = "GetChannelMembers",channel_id_ = ChatId:gsub("-100",""),filter_ = {ID = "ChannelMembersAdministrators"},offset_ = 0,limit_ = 100},function(arg,data) 
 if dp.id_ then
@@ -11435,7 +11435,7 @@ if data.members_[i].status_.ID == "ChatMemberStatusCreator" then
 Manager_id = admins[i].user_id_
 tdcli_function ({ID = "GetUser",user_id_ = Manager_id},function(arg,Rio) 
 if Rio.first_name_ ~= false then
-ConstructorRio = "["..Rio.first_name_.."](T.me/"..(Rio.username_ or "ttttftfr")..")"
+ConstructorRio = "["..Rio.first_name_.."](T.me/"..(Rio.username_ or "iinzzz")..")"
 else 
 ConstructorRio = "حساب محذوف"
 end
@@ -11624,7 +11624,7 @@ if DevRio:sismember(BrandTame..'Rio:Groups',msg.chat_id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰المجموعه بالتاكيد مفعله', 1, 'md')
 else
 Text = "⌔︰تم تفعيل المجموعه "..dp.title_
-local inline = {{{text="‹ ترتيب الاوامر ›",callback_data="/SetCmdGp:"..msg.sender_user_id_},{text="‹ رفع الادمنيه ›",callback_data="/UploadAdmin:"..msg.sender_user_id_}},{{text="‹ غادر ›",callback_data="/LeaveBot:"..msg.sender_user_id_},{text="‹ تعطيل ›",callback_data="/Stop:"..msg.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/ttttftfr"}}}
+local inline = {{{text="‹ ترتيب الاوامر ›",callback_data="/SetCmdGp:"..msg.sender_user_id_},{text="‹ رفع الادمنيه ›",callback_data="/UploadAdmin:"..msg.sender_user_id_}},{{text="‹ غادر ›",callback_data="/LeaveBot:"..msg.sender_user_id_},{text="‹ تعطيل ›",callback_data="/Stop:"..msg.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/iinzzz"}}}
 SendInline(msg.chat_id_,Text,nil,inline,msg.id_/2097152/0.5)
 DevRio:sadd(BrandTame.."Rio:Groups",msg.chat_id_)
 if not DevRio:get(BrandTame..'Rio:SudosGp'..msg.sender_user_id_..msg.chat_id_) and not SecondSudo(msg) then 
@@ -11669,7 +11669,7 @@ if not DevRio:sismember(BrandTame..'Rio:Groups',msg.chat_id_) then
 Dev_Rio(msg.chat_id_, msg.id_, 1, '⌔︰المجموعه بالتاكيد معطله', 1, 'md')
 else
 Text = "⌔︰تم تعطيل المجموعه "..dp.title_
-local inline = {{{text="‹ غادر ›",callback_data="/LeaveBot:"..msg.sender_user_id_},{text="‹ تفعيل ›",callback_data="/On:"..msg.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/ttttftfr"}}}
+local inline = {{{text="‹ غادر ›",callback_data="/LeaveBot:"..msg.sender_user_id_},{text="‹ تفعيل ›",callback_data="/On:"..msg.sender_user_id_}},{{text="‹ TeAm BrandTame ›",url="t.me/iinzzz"}}}
 SendInline(msg.chat_id_,Text,nil,inline,msg.id_/2097152/0.5)
 DevRio:srem(BrandTame.."Rio:Groups",msg.chat_id_)
 local Name1 = result.first_name_
@@ -12423,7 +12423,7 @@ local Text = [[
 ⌔︰م5 ˓ اوامر المطورين
 ⌔︰م6 ˓ اوامر الاعضاء
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="اوامر الادمنيه",callback_data="/HelpList2:"..msg.sender_user_id_},{text="اوامر الحمايه",callback_data="/HelpList1:"..msg.sender_user_id_}},{{text="اوامر المنشئين",callback_data="/HelpList4:"..msg.sender_user_id_},{text="اوامر المدراء",callback_data="/HelpList3:"..msg.sender_user_id_}},{{text="اوامر الاعضاء",callback_data="/HelpList6:"..msg.sender_user_id_},{text="اوامر المطورين",callback_data="/HelpList5:"..msg.sender_user_id_}},{{text="اوامر الرتب",callback_data="/DelList:"..msg.sender_user_id_}},{{text="التفعيل و التعطيل",callback_data="/lockorder:"..msg.sender_user_id_},{text="القفل و الفتح",callback_data="/locklist:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}}}
@@ -12494,7 +12494,7 @@ local Text = [[
 ⌔︰البوتات بالطرد
 ⌔︰البوتات بالتقيد
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12569,7 +12569,7 @@ local Text = [[
 ⌔︰تقييد يوم + عدد الايام
 ⌔︰الغاء تقييد ˓ لالغاء التقييد بالوقت
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12634,7 +12634,7 @@ local Text = [[
 ⌔︰ردود المدير • ردود المطور • التحقق
 ⌔︰ضافني • حساب العمر • الزخرفه
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12693,7 +12693,7 @@ local Text = [[
 ⌔︰المنشئين الاساسيين 
 ⌔︰حذف جميع الرتب
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12777,7 +12777,7 @@ local Text = [[
 ⌔︰ترحيب البوت • المغادره
 ⌔︰البوت الخدمي • التواصل
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end end
@@ -12823,7 +12823,7 @@ local Text = [[
 ⌔︰تحويل + بالرد ˓ صوره • ملصق • صوت • بصمه
 ⌔︰انطق + الكلام تدعم جميع اللغات مع الترجمه للعربي
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]]
 Dev_Rio(msg.chat_id_, msg.id_, 1, (Help or Text), 1, 'md')
 end
@@ -12835,7 +12835,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 *⌔︰يمكنك مسح رتب المجموعه من خلال الازرار اسفل*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="مسح الاساسيين",callback_data="/DelBasicConstructor:"..msg.sender_user_id_},{text="مسح المنشئين",callback_data="/DelConstructor:"..msg.sender_user_id_}},{{text="مسح المدراء",callback_data="/DelManagers:"..msg.sender_user_id_},{text="مسح الادمنيه",callback_data="/DelAdmins:"..msg.sender_user_id_}},{{text="مسح المميزين",callback_data="/DelVipMem:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/DelList:"..msg.sender_user_id_}}}
@@ -12850,7 +12850,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 *⌔︰يمكنك مسح الممنوعات من خلال الازرار اسفل*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="مسح المتحركات",callback_data="/DelGif:"..msg.sender_user_id_},{text="مسح الملصقات",callback_data="/DelSticker:"..msg.sender_user_id_}},{{text="مسح الصور",callback_data="/DelPhoto:"..msg.sender_user_id_},{text="مسح الكلمات",callback_data="/DelTextfilter:"..msg.sender_user_id_}},{{text="مسح قوائم المنع",callback_data="/DelAllFilter:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_}}}
@@ -12866,7 +12866,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 *⌔︰يمكنك قفل وفتح الاوامر من خلال الازرار اسفل*
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="قفل الدردشه",callback_data="/lockText:"..msg.sender_user_id_},{text="فتح الدردشه",callback_data="/unlockText:"..msg.sender_user_id_}},{{text="قفل الدخول",callback_data="/lockjoin:"..msg.sender_user_id_},{text="فتح الدخول",callback_data="/unlockjoin:"..msg.sender_user_id_}},{{text="قفل البوتات",callback_data="/LockBotList:"..msg.sender_user_id_},{text="فتح البوتات",callback_data="/unlockBot:"..msg.sender_user_id_}},{{text="قفل الاشعارات",callback_data="/lockTagServr:"..msg.sender_user_id_},{text="فتح الاشعارات",callback_data="/unlockTagServr:"..msg.sender_user_id_}},{{text="قفل التعديل",callback_data="/lockEditMsgs:"..msg.sender_user_id_},{text="فتح التعديل",callback_data="/unlockEditMsgs:"..msg.sender_user_id_}},{{text="قفل الملصقات",callback_data="/lockStickers:"..msg.sender_user_id_},{text="فتح الملصقات",callback_data="/unlockStickers:"..msg.sender_user_id_}},{{text="قفل المتحركه",callback_data="/lockGifs:"..msg.sender_user_id_},{text="فتح المتحركه",callback_data="/unlockGifs:"..msg.sender_user_id_}},{{text="قفل الفيديو",callback_data="/lockVideos:"..msg.sender_user_id_},{text="فتح الفيديو",callback_data="/unlockVideos:"..msg.sender_user_id_}},{{text="قفل الصور",callback_data="/unlockPhoto:"..msg.sender_user_id_},{text="فتح الصور",callback_data="/unlockPhoto:"..msg.sender_user_id_}},{{text="قفل التوجيه",callback_data="/lockForwards:"..msg.sender_user_id_},{text="فتح التوجيه",callback_data="/unlockForwards:"..msg.sender_user_id_}},{{text="قفل التكرار",callback_data="/LockSpamList:"..msg.sender_user_id_},{text="فتح التكرار",callback_data="/unlockSpam:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..msg.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..msg.sender_user_id_}}}
@@ -12882,7 +12882,7 @@ local Text = [[
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ⌔︰يمكنك التعطيل والتفعيل عن طريق الازرار بلاسفل
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
-⌔︰[Source Channel](https://t.me/ttttftfr)
+⌔︰[Source Channel](https://t.me/iinzzz)
 ]] 
 keyboard = {} 
 keyboard.inline_keyboard = {{{text="تعطيل الايدي بالصوره",callback_data="/LockIdPhoto:"..msg.sender_user_id_},{text="تفعيل الايدي بالصوره",callback_data="/UnLockIdPhoto:"..msg.sender_user_id_}},{{text="تعطيل الايدي",callback_data="/LockId:"..msg.sender_user_id_},{text="تفعيل الايدي",callback_data="/UnLockId:"..msg.sender_user_id_}},{{text="تعطيل الرابط",callback_data="/LockGpLinks:"..msg.sender_user_id_},{text="تفعيل الرابط",callback_data="/UnLockGpLinks:"..msg.sender_user_id_}},{{text="تعطيل الرابط انلاين",callback_data="/LockGpLinksinline:"..msg.sender_user_id_},{text="تفعيل الرابط انلاين",callback_data="/UnLockGpLinksinline:"..msg.sender_user_id_}},{{text="تعطيل الترحيب",callback_data="/LockWelcome:"..msg.sender_user_id_},{text="تفعيل الترحيب",callback_data="/UnLockWelcome:"..msg.sender_user_id_}},{{text="تعطيل الردود المطور",callback_data="/LockAllRed:"..msg.sender_user_id_},{text="تفعيل الردود المطور",callback_data="/UnLockAllRed:"..msg.sender_user_id_}},{{text="تعطيل ردود المدير",callback_data="/LockGpRed:"..msg.sender_user_id_},{text="تفعيل ردود المدير",callback_data="/UnLockGpRed:"..msg.sender_user_id_}},{{text="تعطيل نزلني",callback_data="/LockDelMe:"..msg.sender_user_id_},{text="تفعيل نزلني",callback_data="/UnLockDelMe:"..msg.sender_user_id_}},{{text="تعطيل اطردني",callback_data="/LockKickMe:"..msg.sender_user_id_},{text="تفعيل اطردني",callback_data="/UnLockKickMe:"..msg.sender_user_id_}},{{text="تعطيل الحظر",callback_data="/LockKickBan:"..msg.sender_user_id_},{text="تفعيل الحظر",callback_data="/UnLockKickBan:"..msg.sender_user_id_}},{{text="تعطيل الرفع",callback_data="/LockProSet:"..msg.sender_user_id_},{text="تفعيل الرفع",callback_data="/UnLockProSet:"..msg.sender_user_id_}},{{text="تعطيل الالعاب",callback_data="/LockGames:"..msg.sender_user_id_},{text="تفعيل الالعاب",callback_data="/UnLockGames:"..msg.sender_user_id_}},{{text="• اخفاء الكليشه •",callback_data="/HideHelpList:"..data.sender_user_id_},{text="• القائمه الرئيسيه •",callback_data="/HelpList:"..data.sender_user_id_}}}
@@ -13199,27 +13199,27 @@ end end end end
 --     Source BrandTame     --
 if text == 'القناة' and ChCheck(msg) or text == 'قناة السورس' and ChCheck(msg) or text == 'قناه السورس' and ChCheck(msg) or text == 'قنات السورس' and ChCheck(msg) or text == '˓ قناة السورس ⌔' and ChCheck(msg) then 
 Text = [[
-⌔︰[قناة السورس](https://t.me/ttttftfr)
+⌔︰[قناة السورس](https://t.me/iinzzz)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌔ قناة السورس',url="t.me/ttttftfr"}},
+{{text = '⌔ قناة السورس',url="t.me/iinzzz"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/ttttftfr&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/iinzzz&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end
 --     Source BrandTame     --
-if text == "مبرمج السورس" and ChCheck(msg) or text == "مطور السورس" and ChCheck(msg) or text == "وين المبرمج" and ChCheck(msg) or text == "المبرمج" and ChCheck(msg) or text == "˓ مبرمج السورس ⌔" and ChCheck(msg) then 
+if text == "مطور السورس" and ChCheck(msg) or text == "مطور السورس" and ChCheck(msg) or text == "وين المبرمج" and ChCheck(msg) or text == "المبرمج" and ChCheck(msg) or text == "˓ مطور السورس ⌔" and ChCheck(msg) then 
 Text = [[
-⌔︰[مبرمج السورس](https://t.me/Htdxs)
+⌔︰[مطور السورس](https://t.me/RFRFF)
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '⌔ مبرمج السورس',url="t.me/Htdxs"}},
+{{text = '⌔ مطور السورس',url="t.me/RFRFF"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Htdxs&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..TokenBot..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/RFRFF&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 return false
 end
 --     Source BrandTame     --
@@ -13352,8 +13352,8 @@ end
 --     Source BrandTame     --
 end 
 ------------------------------------------------
--- This Source Was Developed By (Rio) @Htdxs.--
---   This Is The Source Channel @ttttftfr .   --
+-- This Source Was Developed By (Rio) @RFRFF.--
+--   This Is The Source Channel @iinzzz .   --
 --                - BrandTame -                 --
---        -- https://t.me/ttttftfr --         --
+--        -- https://t.me/iinzzz --         --
 ------------------------------------------------   
